@@ -1,0 +1,73 @@
+User/sign up / Applicant table
+    - id/ applicant id
+    - username
+    - password
+    - email
+    - address
+    - phone number
+    - role
+    - first name
+    - last name
+    - Resume
+    - preferred job roles
+    - preferred job location
+    - current salary 
+    - expected salary
+    - skills
+    - source
+    - created date
+    - achievements (optional)
+    - awards & recognition (optional)
+    - applicant status (optional)
+Role table
+    - id 
+    - role name
+    - add new roles
+JOB roles
+    - id
+    - job name/ role name
+HR table 
+    - id 
+    - username
+    - password
+    - first name 
+    - last name
+    - jobs posted
+    - status (selected/rejected/screening/hired/offered)
+    - created date
+Job post table
+    - id
+    - role id
+    - job role id
+    - job description
+    - skills id/ skills required
+    - posted date
+    - posted by
+skills table
+    - id
+    - skill name
+    - add new skills
+    - skill level
+Applicant achievements table
+    - Applicant id
+    - achievement name
+    - id
+    - achievement details
+Interviewer table
+    - id
+    - username
+    - password
+    - first name
+    - last name
+    - Reason for status change.
+location table (optional)
+    - id
+    - location name
+    - add new locations
+Job Applied table
+    - id 
+    - applicant id
+    - status (applied/ not applied)
+    - jobs id
+    - job post id
+    - role id

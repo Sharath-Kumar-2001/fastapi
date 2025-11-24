@@ -14,12 +14,7 @@ def get_db_session():
 app = FastAPI()
 router = APIRouter()
 
-app.mount("/assets", StaticFiles(directory="frontend/build/client/assets"))
-
-@router.get("/{full_path:path}")
-async def catch_all(full_path: str):
-  indexFilePath = os.path.join("frontend", "build", "client", "index.html")
-  return FileResponse(path=indexFilePath, media_type="text/html")
+app.mount("/assets", StaticFiles(directory="frontend-router-concept/build/client/assets"))
 
 @router.get("/health")
 async def health_check():
@@ -30,7 +25,7 @@ async def health_check():
     except Exception as e:
         return "Database connection has error"
     
-@router.get("/jobboards")
+@router.get("/job-boards")
 async def api_job_boards():
     with get_db_session() as session:
         jobBoards = session.query(JobBoard).all()
@@ -58,3 +53,8 @@ async def api_company_job_board(slug):
      return jobPosts
   
 app.include_router(router=router, prefix="/api")
+
+@app.get("/{full_path:path}")
+async def catch_all(full_path: str):
+  indexFilePath = os.path.join("frontend-router-concept", "build", "client", "index.html")
+  return FileResponse(path=indexFilePath, media_type="text/html")

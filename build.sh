@@ -5,7 +5,7 @@ echo "Installing Python dependencies..."
 pip install -r requirements.txt
 
 echo "Installing frontend dependencies..."
-cd frontend
+cd frontend-router-concept
 npm install
 
 echo "Building frontend..."

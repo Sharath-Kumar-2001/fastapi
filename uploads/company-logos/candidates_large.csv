@@ -1,0 +1,101 @@
+candidate_id,name,email,phone,address,job_id,resume_filename,stage,stage_reason,source,notes,applied_date
+1,Lina Schmidt,lina.schmidt@example.com,+1-555-7083,"London, UK",5,resume_lina.pdf,Rejected,Accepted offer,Walk-in,,2025-01-23
+2,Aditi Sharma,aditi.sharma@example.com,+1-555-9603,"Chennai, India",1,resume_aditi.pdf,Offer,Failed interview,Referral,,2025-01-14
+3,Noah Smith,noah.smith@example.com,+1-555-1821,"Tokyo, Japan",3,resume_noah.pdf,Hired,Not a cultural fit,Referral,,2025-01-26
+4,Mia Garcia,mia.garcia@example.com,+1-555-4987,"New York, USA",10,resume_mia.pdf,Applied,,Other,,2025-01-09
+5,Aditi Sharma,aditi.sharma@example.com,+1-555-5584,"New York, USA",2,resume_aditi.pdf,Rejected,Not a cultural fit,Walk-in,,2025-01-13
+6,Eva Mueller,eva.mueller@example.com,+1-555-2715,"Berlin, Germany",10,resume_eva.pdf,Interview,,Job Board,,2025-01-25
+7,Chen Wei,chen.wei@example.com,+1-555-5059,"Tokyo, Japan",9,resume_chen.pdf,Interview,,LinkedIn,,2025-01-24
+8,Carlos Ramirez,carlos.ramirez@example.com,+1-555-7086,"Tokyo, Japan",9,resume_carlos.pdf,Offer,Accepted offer,Walk-in,,2025-01-17
+9,Emma Wilson,emma.wilson@example.com,+1-555-8336,"Osaka, Japan",10,resume_emma.pdf,Applied,,LinkedIn,,2025-01-21
+10,Isabella Lopez,isabella.lopez@example.com,+1-555-6606,"Bengaluru, India",2,resume_isabella.pdf,Applied,,LinkedIn,,2025-01-04
+11,Aditi Sharma,aditi.sharma@example.com,+1-555-1382,"London, UK",1,resume_aditi.pdf,Offer,Good technical knowledge,Walk-in,,2025-01-26
+12,Jake Thompson,jake.thompson@example.com,+1-555-3143,"London, UK",5,resume_jake.pdf,Offer,Accepted offer,Walk-in,,2025-01-04
+13,Emma Wilson,emma.wilson@example.com,+1-555-9370,"London, UK",6,resume_emma.pdf,Screening,,Referral,,2025-01-13
+14,Eva Mueller,eva.mueller@example.com,+1-555-4071,"Berlin, Germany",3,resume_eva.pdf,Rejected,Not a cultural fit,Other,,2025-01-08
+15,Emma Wilson,emma.wilson@example.com,+1-555-4164,"Osaka, Japan",7,resume_emma.pdf,Applied,,LinkedIn,,2025-01-11
+16,Chen Wei,chen.wei@example.com,+1-555-1394,"San Francisco, USA",5,resume_chen.pdf,Interview,,Other,,2025-01-08
+17,Emma Wilson,emma.wilson@example.com,+1-555-8922,"Osaka, Japan",5,resume_emma.pdf,Screening,,Referral,,2025-01-25
+18,Hiro Tanaka,hiro.tanaka@example.com,+1-555-3983,"Chennai, India",2,resume_hiro.pdf,Rejected,Not a cultural fit,Referral,,2025-01-15
+19,Lucas Martin,lucas.martin@example.com,+1-555-5623,"New York, USA",9,resume_lucas.pdf,Rejected,Not a cultural fit,Job Board,,2025-01-05
+20,Jake Thompson,jake.thompson@example.com,+1-555-9418,"Osaka, Japan",6,resume_jake.pdf,Hired,Good technical knowledge,Referral,,2025-01-24
+21,Mia Garcia,mia.garcia@example.com,+1-555-1220,"Berlin, Germany",9,resume_mia.pdf,Rejected,Strong skills,Job Board,,2025-01-25
+22,Yuki Abe,yuki.abe@example.com,+1-555-8036,"Tokyo, Japan",5,resume_yuki.pdf,Rejected,Good technical knowledge,Job Board,,2025-01-25
+23,Mai Kobayashi,mai.kobayashi@example.com,+1-555-5098,"San Francisco, USA",4,resume_mai.pdf,Hired,Failed interview,Job Board,,2025-01-08
+24,Lina Schmidt,lina.schmidt@example.com,+1-555-3461,"Chennai, India",4,resume_lina.pdf,Interview,,LinkedIn,,2025-01-05
+25,Arjun Patel,arjun.patel@example.com,+1-555-8983,"Tokyo, Japan",9,resume_arjun.pdf,Hired,Accepted offer,Referral,,2025-01-18
+26,Sophia Rossi,sophia.rossi@example.com,+1-555-3589,"San Francisco, USA",2,resume_sophia.pdf,Applied,,Job Board,,2025-01-23
+27,Isabella Lopez,isabella.lopez@example.com,+1-555-1834,"San Francisco, USA",1,resume_isabella.pdf,Screening,,Job Board,,2025-01-23
+28,Eva Mueller,eva.mueller@example.com,+1-555-5600,"Chennai, India",9,resume_eva.pdf,Interview,,Other,,2025-01-16
+29,Lucas Martin,lucas.martin@example.com,+1-555-8380,"San Francisco, USA",7,resume_lucas.pdf,Applied,,Referral,,2025-01-21
+30,Eva Mueller,eva.mueller@example.com,+1-555-1446,"Bengaluru, India",5,resume_eva.pdf,Screening,,LinkedIn,,2025-01-23
+31,Jake Thompson,jake.thompson@example.com,+1-555-6310,"Bengaluru, India",5,resume_jake.pdf,Interview,,LinkedIn,,2025-01-21
+32,Ravi Menon,ravi.menon@example.com,+1-555-5074,"San Francisco, USA",2,resume_ravi.pdf,Screening,,Other,,2025-01-13
+33,Mia Garcia,mia.garcia@example.com,+1-555-2831,"Tokyo, Japan",2,resume_mia.pdf,Offer,Accepted offer,Walk-in,,2025-01-22
+34,Yuki Abe,yuki.abe@example.com,+1-555-5732,"Chennai, India",9,resume_yuki.pdf,Offer,Failed interview,Other,,2025-01-13
+35,Lina Schmidt,lina.schmidt@example.com,+1-555-7523,"London, UK",1,resume_lina.pdf,Rejected,Failed interview,Referral,,2025-01-01
+36,Ravi Menon,ravi.menon@example.com,+1-555-8181,"New York, USA",1,resume_ravi.pdf,Applied,,Walk-in,,2025-01-19
+37,Chen Wei,chen.wei@example.com,+1-555-5544,"Tokyo, Japan",10,resume_chen.pdf,Screening,,Job Board,,2025-01-01
+38,Ravi Menon,ravi.menon@example.com,+1-555-9895,"London, UK",3,resume_ravi.pdf,Applied,,Referral,,2025-01-11
+39,Mai Kobayashi,mai.kobayashi@example.com,+1-555-3627,"Chennai, India",6,resume_mai.pdf,Screening,,LinkedIn,,2025-01-02
+40,Lina Schmidt,lina.schmidt@example.com,+1-555-7942,"London, UK",5,resume_lina.pdf,Screening,,Referral,,2025-01-03
+41,Sakura Ito,sakura.ito@example.com,+1-555-4750,"London, UK",1,resume_sakura.pdf,Rejected,Not a cultural fit,Referral,,2025-01-05
+42,Sophia Rossi,sophia.rossi@example.com,+1-555-4668,"New York, USA",6,resume_sophia.pdf,Interview,,Walk-in,,2025-01-07
+43,Chen Wei,chen.wei@example.com,+1-555-8811,"Berlin, Germany",8,resume_chen.pdf,Applied,,Walk-in,,2025-01-18
+44,Lucas Martin,lucas.martin@example.com,+1-555-9395,"Osaka, Japan",2,resume_lucas.pdf,Interview,,Other,,2025-01-09
+45,Yuki Abe,yuki.abe@example.com,+1-555-4424,"London, UK",3,resume_yuki.pdf,Offer,Failed interview,LinkedIn,,2025-01-07
+46,Sakura Ito,sakura.ito@example.com,+1-555-9922,"Tokyo, Japan",8,resume_sakura.pdf,Rejected,Accepted offer,Walk-in,,2025-01-07
+47,Chen Wei,chen.wei@example.com,+1-555-8015,"San Francisco, USA",8,resume_chen.pdf,Applied,,Job Board,,2025-01-13
+48,Carlos Ramirez,carlos.ramirez@example.com,+1-555-5802,"New York, USA",9,resume_carlos.pdf,Offer,Not a cultural fit,Referral,,2025-01-04
+49,Mia Garcia,mia.garcia@example.com,+1-555-7993,"Bengaluru, India",2,resume_mia.pdf,Interview,,Referral,,2025-01-18
+50,Noah Smith,noah.smith@example.com,+1-555-3632,"Osaka, Japan",4,resume_noah.pdf,Rejected,Not a cultural fit,Walk-in,,2025-01-23
+51,Emma Wilson,emma.wilson@example.com,+1-555-2132,"London, UK",7,resume_emma.pdf,Rejected,Good technical knowledge,Referral,,2025-01-19
+52,Yuki Abe,yuki.abe@example.com,+1-555-7876,"San Francisco, USA",9,resume_yuki.pdf,Screening,,Referral,,2025-01-25
+53,Emma Wilson,emma.wilson@example.com,+1-555-8148,"Tokyo, Japan",5,resume_emma.pdf,Applied,,Other,,2025-01-09
+54,Sophia Rossi,sophia.rossi@example.com,+1-555-7770,"London, UK",1,resume_sophia.pdf,Applied,,Referral,,2025-01-15
+55,Oliver Brown,oliver.brown@example.com,+1-555-1279,"Bengaluru, India",6,resume_oliver.pdf,Interview,,Other,,2025-01-13
+56,Jake Thompson,jake.thompson@example.com,+1-555-8652,"San Francisco, USA",7,resume_jake.pdf,Interview,,Walk-in,,2025-01-25
+57,Isabella Lopez,isabella.lopez@example.com,+1-555-9171,"New York, USA",10,resume_isabella.pdf,Rejected,Not a cultural fit,Walk-in,,2025-01-12
+58,Sophia Rossi,sophia.rossi@example.com,+1-555-1045,"New York, USA",5,resume_sophia.pdf,Rejected,Strong skills,LinkedIn,,2025-01-09
+59,Hiro Tanaka,hiro.tanaka@example.com,+1-555-4896,"Berlin, Germany",3,resume_hiro.pdf,Hired,Failed interview,Walk-in,,2025-01-06
+60,Lucas Martin,lucas.martin@example.com,+1-555-6800,"San Francisco, USA",5,resume_lucas.pdf,Interview,,Walk-in,,2025-01-26
+61,Sakura Ito,sakura.ito@example.com,+1-555-4321,"San Francisco, USA",10,resume_sakura.pdf,Rejected,Failed interview,Other,,2025-01-26
+62,Noah Smith,noah.smith@example.com,+1-555-4527,"London, UK",6,resume_noah.pdf,Rejected,Not a cultural fit,Referral,,2025-01-01
+63,Aditi Sharma,aditi.sharma@example.com,+1-555-5756,"Bengaluru, India",8,resume_aditi.pdf,Hired,Failed interview,Walk-in,,2025-01-02
+64,Lina Schmidt,lina.schmidt@example.com,+1-555-1678,"Berlin, Germany",8,resume_lina.pdf,Offer,Accepted offer,Walk-in,,2025-01-17
+65,Yuki Abe,yuki.abe@example.com,+1-555-5002,"Tokyo, Japan",1,resume_yuki.pdf,Screening,,LinkedIn,,2025-01-04
+66,Oliver Brown,oliver.brown@example.com,+1-555-6763,"New York, USA",1,resume_oliver.pdf,Applied,,Job Board,,2025-01-23
+67,Lucas Martin,lucas.martin@example.com,+1-555-5058,"London, UK",8,resume_lucas.pdf,Interview,,Referral,,2025-01-10
+68,Lina Schmidt,lina.schmidt@example.com,+1-555-9006,"New York, USA",5,resume_lina.pdf,Interview,,Job Board,,2025-01-15
+69,Mia Garcia,mia.garcia@example.com,+1-555-6371,"Osaka, Japan",8,resume_mia.pdf,Rejected,Accepted offer,LinkedIn,,2025-01-15
+70,Ravi Menon,ravi.menon@example.com,+1-555-6849,"Tokyo, Japan",8,resume_ravi.pdf,Offer,Accepted offer,LinkedIn,,2025-01-25
+71,Ravi Menon,ravi.menon@example.com,+1-555-1319,"Chennai, India",9,resume_ravi.pdf,Rejected,Good technical knowledge,Other,,2025-01-13
+72,Yuki Abe,yuki.abe@example.com,+1-555-5856,"Berlin, Germany",5,resume_yuki.pdf,Hired,Strong skills,Other,,2025-01-18
+73,Aditi Sharma,aditi.sharma@example.com,+1-555-8247,"Chennai, India",6,resume_aditi.pdf,Screening,,LinkedIn,,2025-01-22
+74,Chen Wei,chen.wei@example.com,+1-555-5955,"Osaka, Japan",5,resume_chen.pdf,Screening,,Job Board,,2025-01-22
+75,Carlos Ramirez,carlos.ramirez@example.com,+1-555-4146,"Tokyo, Japan",5,resume_carlos.pdf,Hired,Strong skills,Job Board,,2025-01-16
+76,Chen Wei,chen.wei@example.com,+1-555-1492,"London, UK",3,resume_chen.pdf,Applied,,LinkedIn,,2025-01-23
+77,Lucas Martin,lucas.martin@example.com,+1-555-5338,"Bengaluru, India",6,resume_lucas.pdf,Interview,,Walk-in,,2025-01-03
+78,Hiro Tanaka,hiro.tanaka@example.com,+1-555-4686,"Chennai, India",2,resume_hiro.pdf,Screening,,LinkedIn,,2025-01-03
+79,Arjun Patel,arjun.patel@example.com,+1-555-1034,"Bengaluru, India",4,resume_arjun.pdf,Interview,,Walk-in,,2025-01-23
+80,David Nguyen,david.nguyen@example.com,+1-555-1956,"Berlin, Germany",6,resume_david.pdf,Hired,Not a cultural fit,Job Board,,2025-01-17
+81,Jake Thompson,jake.thompson@example.com,+1-555-8376,"New York, USA",9,resume_jake.pdf,Interview,,Referral,,2025-01-12
+82,Oliver Brown,oliver.brown@example.com,+1-555-4570,"Berlin, Germany",2,resume_oliver.pdf,Applied,,Job Board,,2025-01-14
+83,Emma Wilson,emma.wilson@example.com,+1-555-2840,"Osaka, Japan",9,resume_emma.pdf,Hired,Not a cultural fit,Other,,2025-01-26
+84,Arjun Patel,arjun.patel@example.com,+1-555-6974,"Tokyo, Japan",1,resume_arjun.pdf,Offer,Good technical knowledge,Job Board,,2025-01-10
+85,Aditi Sharma,aditi.sharma@example.com,+1-555-1810,"London, UK",10,resume_aditi.pdf,Interview,,LinkedIn,,2025-01-13
+86,Noah Smith,noah.smith@example.com,+1-555-9547,"Tokyo, Japan",3,resume_noah.pdf,Rejected,Good technical knowledge,Job Board,,2025-01-01
+87,Arjun Patel,arjun.patel@example.com,+1-555-5526,"London, UK",5,resume_arjun.pdf,Interview,,Referral,,2025-01-13
+88,Sakura Ito,sakura.ito@example.com,+1-555-8514,"Chennai, India",10,resume_sakura.pdf,Interview,,Walk-in,,2025-01-02
+89,Emma Wilson,emma.wilson@example.com,+1-555-9715,"Tokyo, Japan",5,resume_emma.pdf,Offer,Accepted offer,Other,,2025-01-03
+90,Hiro Tanaka,hiro.tanaka@example.com,+1-555-5761,"Tokyo, Japan",10,resume_hiro.pdf,Screening,,Walk-in,,2025-01-11
+91,Noah Smith,noah.smith@example.com,+1-555-4744,"Tokyo, Japan",1,resume_noah.pdf,Applied,,Referral,,2025-01-22
+92,Arjun Patel,arjun.patel@example.com,+1-555-6156,"New York, USA",10,resume_arjun.pdf,Screening,,Other,,2025-01-23
+93,Hiro Tanaka,hiro.tanaka@example.com,+1-555-5394,"London, UK",8,resume_hiro.pdf,Offer,Failed interview,Walk-in,,2025-01-21
+94,David Nguyen,david.nguyen@example.com,+1-555-3466,"Berlin, Germany",3,resume_david.pdf,Screening,,Other,,2025-01-03
+95,Sakura Ito,sakura.ito@example.com,+1-555-7352,"New York, USA",10,resume_sakura.pdf,Applied,,Job Board,,2025-01-16
+96,Yuki Abe,yuki.abe@example.com,+1-555-4389,"London, UK",6,resume_yuki.pdf,Offer,Failed interview,Referral,,2025-01-13
+97,Emma Wilson,emma.wilson@example.com,+1-555-9966,"London, UK",5,resume_emma.pdf,Offer,Failed interview,Other,,2025-01-20
+98,Chen Wei,chen.wei@example.com,+1-555-9578,"San Francisco, USA",4,resume_chen.pdf,Applied,,Referral,,2025-01-03
+99,Oliver Brown,oliver.brown@example.com,+1-555-7847,"Tokyo, Japan",9,resume_oliver.pdf,Interview,,Referral,,2025-01-07
+100,Arjun Patel,arjun.patel@example.com,+1-555-9921,"New York, USA",7,resume_arjun.pdf,Interview,,LinkedIn,,2025-01-04

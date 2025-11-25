@@ -1,20 +1,37 @@
-from fastapi import FastAPI, APIRouter
+from fastapi import FastAPI, APIRouter, File, Form, Request, UploadFile
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
+from pydantic import BaseModel, Field
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker
 from config import settings
+from file_storage import upload_file, UPLOAD_DIR
 from models import JobBoard, JobPost
+from typing import Annotated
 import os
 
 engine = create_engine(str(settings.DATABASE_URL), echo=True)
 def get_db_session():
     return sessionmaker(bind=engine)()
 
-app = FastAPI()
+tags_metadata = [
+    {
+        "name" : "POST API's",
+        "description": "Learning how the post api is creation."
+    },
+    {
+        "name": "Calculator",
+        "description": "Addition & Multiplication only done now"
+    }
+]
+
+app = FastAPI(docs_url="/sharath", openapi_tags=tags_metadata)
 router = APIRouter()
 
 app.mount("/assets", StaticFiles(directory="frontend-router-concept/build/client/assets"))
+
+if not settings.PRODUCTION:
+    app.mount("/uploads", StaticFiles(directory="uploads"))
 
 @router.get("/health")
 async def health_check():
@@ -51,7 +68,39 @@ async def api_company_job_board(slug):
         .filter(JobBoard.slug.__eq__(slug)) \
         .all()
      return jobPosts
-  
+
+class JobBoardForm(BaseModel):
+    slug: str = Field(..., min_length=3, max_digits=20)
+    logo: UploadFile = File(...)
+
+
+@router.post('/job-boards',tags=["POST API's"])
+async def api_create_new_job_board(
+    slug: Annotated[str, Form(min_length=3, max_length=20)],
+    logo: Annotated[UploadFile, File()]
+):
+    logo_contents = await logo.read()
+    file_store = upload_file(
+        bucket_name="company-logos",
+        path=logo.filename,
+        contents=logo_contents,
+        content_type=logo.content_type
+    )
+    return {"slug": slug, "fileurl": file_store}
+
+@router.post('/Addition',tags=['Calculator'])
+async def calculator(x: Annotated[int, Form()], y: Annotated[int, Form()]):
+    return {"Addition": x+y}
+
+class Multiply(BaseModel):
+    x:int = Field(..., min_length=1, max_digits=3)
+    y: int = Field(..., min_length=1, max_digits=3)
+    logo: UploadFile = File(...)
+
+@router.post('/multiply',tags=['Calculator'])
+async def Multiply(mul: Multiply):
+    return {"Multiply": mul.x+mul.y, "filename": mul.logo.filename}
+
 app.include_router(router=router, prefix="/api")
 
 @app.get("/{full_path:path}")

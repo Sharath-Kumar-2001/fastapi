@@ -1,0 +1,21 @@
+meta {
+  name: Admin Login
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8000/api/admin-login
+  body: formUrlEncoded
+  auth: inherit
+}
+
+body:form-urlencoded {
+  username: sharath
+  password: 1234
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
